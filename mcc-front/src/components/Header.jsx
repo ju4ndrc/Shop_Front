@@ -1,20 +1,20 @@
 export default function Header(){
 
     return(
-        <header class="header">
-        <div class="container container-sm container-md container-lg header-container">
+        <header className="header">
+        <div className="container container-sm container-md container-lg header-container">
 
-            <div class="logo">
-                <img class="img-logo" src="./images/claaran-logo.png" alt="logo-claaran"/>
+            <div className="logo">
+                <img className="img-logo" src="./images/claaran-logo.png" alt="logo-claaran"/>
             </div>
               
-               <nav class="menu">
-                <input type="checkbox" id="menu-toggle" class="menu-toggle visually-hidden"/>
-                <label for="menu-toggle" class="menu-icon">&#9776;</label>
-                <ul class="menu-list">
-                  <li class="menu-item"><a href="#home">Inicio</a></li>
-                  <li class="menu-item"><a href="#about">Acerca de Nosotros</a></li>
-                  <li class="menu-item" ><a id="explore" href="#servicios">Explorar Tienda</a></li>
+               <nav className="menu">
+                <input type="checkbox" id="menu-toggle" className="menu-toggle visually-hidden"/>
+                <label  className="menu-icon">&#9776;</label>
+                <ul className="menu-list">
+                  <li className="menu-item"><a href="#home">Inicio</a></li>
+                  <li className="menu-item"><a href="#about">Acerca de Nosotros</a></li>
+                  <li className="menu-item" ><a id="explore" href="#servicios">Explorar Tienda</a></li>
                  
                  
                 </ul>
